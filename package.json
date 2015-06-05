@@ -1,4 +1,6 @@
 {
+  "repository": "https://github.com/ponychicken/invisibleCities-navigation",
+  "description": "Navigation for the invisible cities app",
   "name": "cities",
   "dependencies": {
     "classnames": "^1.2.0",
