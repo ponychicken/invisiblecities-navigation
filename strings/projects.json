@@ -1,54 +1,40 @@
 [{
   "author": "Dom Okah",
-  "city": "Perinthia",
+  "city": "Zirma",
   "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
-  "image": "./dom.jpg",
   "landscape": true,
-  "path": "dom"
 }, {
   "author": "Lorenz Fidel Huchthausen",
   "city": "Valdrada",
   "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
-  "image": "./lorenz.jpg",
-  "path": "lorenz",
   "landscape": false,
   "specialRotate": false
 }, {
   "author": "Wiebke Helmchen",
   "city": "Chloe",
   "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
-  "image": "./wiebke.jpg",
   "landscape": true,
-  "path": "wiebke"
 }, {
   "author": "Ilya Barret",
-  "city": "Perinthia",
+  "city": "Theodora",
   "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
-  "image": "./ilya.jpg",
   "landscape": true,
-  "path": "ilya"
 }, {
   "author": "Eric Reh",
   "city": "Perinthia",
   "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
-  "image": "./eric.jpg",
   "landscape": false,
   "specialRotate": true,
-  "path": "eric"
 }, {
   "author": "Gabriela Kapfert",
   "city": "Procopia",
   "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
-  "image": "./gabi.jpg",
   "landscape": true,
   "specialRotate": false,
-  "path": "gabi"
 }, {
   "author": "Leo Koppelkamm",
   "city": "Irene",
   "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
-  "image": "./leo.jpg",
   "landscape": false,
   "specialRotate": true,
-  "path": "leo"
 }]
