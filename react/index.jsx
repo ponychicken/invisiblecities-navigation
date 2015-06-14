@@ -22,7 +22,7 @@ class App extends React.Component {
       <TransitionGroup component="div" transitionName="horizontal">
           <RouteHandler key={this.getTopHandlerKey()} />
       </TransitionGroup>
-    );
+    )
   }
   
   getTopHandlerKey() {

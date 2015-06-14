@@ -1,4 +1,4 @@
-import projectsData from '../strings/projects'
+import projectsData from '../data/projects'
 
 for (let project of projectsData) {
   project.id = project.city.toLowerCase()

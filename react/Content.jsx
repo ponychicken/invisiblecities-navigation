@@ -1,24 +1,15 @@
-var React = require('react');
-var Menu = require('./Menu.jsx');
-var Router = require('react-router');
-var RouteHandler = Router.RouteHandler;
-var strings = require('../strings/strings')
-
-// TODO put in json, use in MENU
-var menuItems = [
-  'Vorwort',
-  'Interaktive Projekte',
-  'Animation',
-  'Nachwort'
-];
+import React from 'react'
+import Menu from './Menu'
+import {RouteHandler} from 'react-router'
+import strings from '../data/strings'
 
 export default class Content extends React.Component {  
   render() {
     return (
       <div>
-        <Menu list={menuItems} title={strings.App.title} />
+        <Menu title={strings.App.title} />
         <RouteHandler/>
       </div>
-    );
+    )
   }
 }

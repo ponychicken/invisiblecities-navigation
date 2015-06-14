@@ -1,9 +1,9 @@
-var React = require('react');
-var Swipeable = require('react-swipeable');
-var Link = require('react-router').Link;
-var strings = require('../strings/strings');
-var classnames = require('classnames');
-var TransitionGroup = require('react/lib/ReactCSSTransitionGroup');
+import React from 'react'
+import Swipeable from 'react-swipeable'
+import {Link} from 'react-router'
+import strings from '../data/strings'
+import classnames from 'classnames'
+import TransitionGroup from 'react/lib/ReactCSSTransitionGroup'
 
 class MenuIcon extends React.Component {
   render() {
@@ -52,7 +52,7 @@ export default class Menu extends React.Component {
         <div className={classes} onClick={this.toggle.bind(this)} >
           <MenuIcon />
           <h1 className='appTitle'>{this.props.title}</h1>
-          <MenuList list={this.props.list}/>
+          <MenuList/>
         </div>
       </Swipeable>
     );

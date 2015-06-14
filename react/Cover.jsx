@@ -1,12 +1,9 @@
-var React = require('react');
-var strings = require('../strings/strings')
-var Swipeable = require('react-swipeable');
-var Router = require('react-router');
-var Link = Router.Link;
-var Navigation = Router.Navigation;
-var ImageLoader = require('react-imageloader');
-
-var projects = require('../strings/projects');
+import React from 'react'
+import strings from '../data/strings'
+import Swipeable from 'react-swipeable'
+import {Link} from 'react-router'
+import ImageLoader from 'react-imageloader'
+import projects from '../utils/projects'
 
 
 class ImagePreloader extends React.Component {
@@ -14,14 +11,14 @@ class ImagePreloader extends React.Component {
     var images = projects.map(function(item, i) {
       return (
         <ImageLoader key={i} src={item.image}  />
-      );
-    });
+      )
+    })
     
     return (
       <div hidden>
         {images}
       </div>
-    );
+    )
   }
 }
 
@@ -36,7 +33,7 @@ export default class Cover extends React.Component {
             <ImagePreloader/>
           </div>
       </Swipeable>
-    );
+    )
   }
   
   go(e, x, y, flick) {
@@ -48,5 +45,5 @@ export default class Cover extends React.Component {
 
 
 Cover.contextTypes = {
-  router: React.PropTypes.func.isRequired,
-};
+  router: React.PropTypes.func.isRequired
+}
