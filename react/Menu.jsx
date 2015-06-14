@@ -21,14 +21,14 @@ class MenuList extends React.Component {
     var listNodes = strings.Menu.map(function(item, i) {
       return (
         <li key={i}><Link to={item.destination}>{item.name}</Link></li>
-      );
-    });
+      )
+    })
     
     return (
       <ul>
         {listNodes}
       </ul>
-    );
+    )
   }
 }
 
@@ -62,14 +62,14 @@ export default class Menu extends React.Component {
     if (flick && Math.abs(y) < Math.abs(x)) {
       this.setState({
         expanded: (x < 0)
-      });
-      e.stopPropagation();
+      })
+      e.stopPropagation()
     }
   }
   
   toggle() {
     this.setState({
       expanded: !this.state.expanded
-    });
+    })
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import projects from '../strings/projects'
+import projects from '../utils/projects'
 import {ProjectLink} from './ProjectLink'
 import {Link} from 'react-router'
 
@@ -33,4 +33,4 @@ export default class Text extends React.Component {
 
 Text.contextTypes = {
   router: React.PropTypes.func.isRequired
-};
+}

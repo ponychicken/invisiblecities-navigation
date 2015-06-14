@@ -29,6 +29,6 @@ der Königin gewesen und in Windeln hier auf der Mole ausgesetzt
 worden sein soll.
 und Schlägen.
       </div>
-    );
+    )
   }
 }

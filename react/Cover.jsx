@@ -26,7 +26,7 @@ class ImagePreloader extends React.Component {
 }
 
 
-class Cover extends React.Component {
+export default class Cover extends React.Component {
   render() {
     return (
        <Swipeable className="fullscreenPage" onSwiped={this.go} ref="cover">
@@ -50,5 +50,3 @@ class Cover extends React.Component {
 Cover.contextTypes = {
   router: React.PropTypes.func.isRequired,
 };
-
-module.exports = Cover;
