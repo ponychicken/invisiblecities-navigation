@@ -5,6 +5,7 @@ let irene = require(`../markdown/irene`)
 let procopia = require(`../markdown/procopia`)
 let sophronia = require(`../markdown/sophronia`)
 let valdrada = require(`../markdown/valdrada`)
+let perinthia = require(`../markdown/perinthia`)
 
 export default class Text extends React.Component {
   
