@@ -34,7 +34,7 @@ gulp.task('enable-watch-mode', function () {
 
 function browserifyAndMaybeWatchify(watch) {
   args = watchify.args;
-  args.extensions = ['.md', '.json'];
+  args.extensions = ['.md', '.json', '.jsx'];
 
   var bundler = browserify("./src/index.jsx", args);
 
