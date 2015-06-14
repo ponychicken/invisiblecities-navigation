@@ -30,9 +30,9 @@ class CardItem extends React.Component {
   
     return (
       <div className={classes} style={divStyle}>
-        <img src={this.props.image} onClick={this.goToProject}/>
+        <img src={this.props.image} onClick={this.goToProject.bind(this)}/>
         <div className='block'>
-          <h2 className='title' onClick={this.goToProject}>{this.props.city}</h2>
+          <h2 className='title' onClick={this.goToProject.bind(this)}>{this.props.city}</h2>
           <div className='author'>{this.props.author}</div>
           <div className='cardText'>{this.props.text}</div>
           <div className='buttons'>
