@@ -9,6 +9,8 @@ let procopia = require(`../markdown/procopia`)
 let sophronia = require(`../markdown/sophronia`)
 let valdrada = require(`../markdown/valdrada`)
 let perinthia = require(`../markdown/perinthia`)
+let zirma = require(`../markdown/zirma`)
+let theodora = require(`../markdown/theodora`)
 
 export default class Text extends React.Component {
   
@@ -23,10 +25,12 @@ export default class Text extends React.Component {
     // Filter returns an array
     props = props[0]
 
-    return (<div>
-      <ProjectLink className='button' path={props.path} landscape={props.landscape} specialRotate={specialRotate}>Projekt öffnen</ProjectLink>
-      <Link to={cityid} className='button'>Kapitel lesen</Link>
+    return (<div className='chapterView'>
       <div dangerouslySetInnerHTML={{__html: text}} className="text"/>
+      <div className='links'>
+        <ProjectLink className='button' path={props.path} landscape={props.landscape} specialRotate={props.specialRotate}>→ Projekt öffnen</ProjectLink>
+        <Link to='projects' className='button'>← Zurück zur Übersicht</Link>
+      </div>
     </div>)
   }
 }

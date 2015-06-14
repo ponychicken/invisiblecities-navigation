@@ -36,7 +36,7 @@ function browserifyAndMaybeWatchify(watch) {
   args = watchify.args;
   args.extensions = ['.md', '.json', '.jsx'];
 
-  var bundler = browserify("./src/index.jsx", args);
+  var bundler = browserify("./react/index.jsx", args);
 
   bundler.transform(markdownify);
   bundler.transform(babelify);
@@ -60,7 +60,7 @@ function browserifyAndMaybeWatchify(watch) {
   bundle()
 }
 
-gulp.task("watchify", function() {
+gulp.task('watchify', function() {
     browserifyAndMaybeWatchify(true)
 })
 

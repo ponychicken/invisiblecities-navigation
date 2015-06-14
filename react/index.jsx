@@ -15,23 +15,27 @@ var Route = Router.Route;
 var RouteHandler = Router.RouteHandler;
 
 
-var App = React.createClass({
-    mixins: [ Router.State ],
+class App extends React.Component {
 
-  render: function () {
+  render() {
     return (
       <TransitionGroup component="div" transitionName="horizontal">
           <RouteHandler key={this.getTopHandlerKey()} />
       </TransitionGroup>
     );
-  },
-  getTopHandlerKey: function () {
-    var childDepth = 1;
-    var childName = this.context.router.getCurrentRoutes()[childDepth].name;
-    return childName;
-  },
-});
+  }
+  
+  getTopHandlerKey() {
+    var childDepth = 1
+    var childName = this.context.router.getCurrentRoutes()[childDepth].name
+    return childName
+  }
+}
 
+
+App.contextTypes = {
+  router: React.PropTypes.func.isRequired
+}
 
 var routes = (
   <Route handler={App} path="/">
@@ -45,10 +49,12 @@ var routes = (
       <Route name="sophronia" handler={Text}/>
       <Route name="perinthia" handler={Text}/>
       <Route name="valdrada" handler={Text}/>
+      <Route name="zirma" handler={Text}/>
+      <Route name="theodora" handler={Text}/>
     </Route>
   </Route>
-);
+)
 
 Router.run(routes, function (Handler) {
   React.render(<Handler/>, document.body)
-});
+})

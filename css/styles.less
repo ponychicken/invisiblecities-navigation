@@ -28,6 +28,9 @@
   -webkit-overflow-scrolling: touch;
 }
 
+.absolute {
+  position: absolute;
+}
 
 @font-face {
     font-family: 'Diktator';
@@ -250,15 +253,42 @@ h4 {
 }
 
 .text {
-  .scrollable;
-  position: absolute;
+  .absolute;
   .left(6);
-  .cols(6);
+  .cols(7);
   .top(1);
-  .rows(8);
+  
   margin: 0em;
-  padding: @innerPadding;
+  
+  p {
+    .scrollable;
+    .rows(7.6);
+    padding-right: @innerPadding * 4;
+  }
+  
 
+}
+
+.chapterView {
+  .links {
+    .absolute;
+    .left(3.5);
+    .top(1);
+    .cols(2.5);
+    display: inline-block;
+    padding-top: 0.25em;
+    
+    .button + .button {
+      margin-left: 0;
+      margin-top: 0.25em;
+    }
+    
+    .button {
+      color: @aubergine;
+      background: none;
+      padding: 0;
+    }
+  }
 }
 
 
@@ -383,7 +413,7 @@ h4 {
 }
 
 .preface {
-  position:absolute;
+  .absolute;
   .top(1.5);
   .left(6.5);
   .cols(6);
