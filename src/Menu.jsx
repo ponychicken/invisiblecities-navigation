@@ -1,7 +1,7 @@
 var React = require('react');
 var Swipeable = require('react-swipeable');
 var Link = require('react-router').Link;
-var strings = require('./strings');
+var strings = require('../strings/strings');
 var classnames = require('classnames');
 var TransitionGroup = require('react/lib/ReactCSSTransitionGroup');
 
@@ -30,7 +30,7 @@ class MenuList extends React.Component {
       </ul>
     );
   }
-};
+}
 
 export default class Menu extends React.Component {
   constructor(props) {
@@ -72,4 +72,4 @@ export default class Menu extends React.Component {
       expanded: !this.state.expanded
     });
   }
-};
+}

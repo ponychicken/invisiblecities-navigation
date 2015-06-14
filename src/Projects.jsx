@@ -1,7 +1,7 @@
 var React = require('react');
 var Text = require('./Text.jsx');
 var CardView = require('./CardView.jsx');
-var projects = require('./projects.json');
+var projects = require('../strings/projects');
 
 export default class Projects extends React.Component {
   constructor(props) {

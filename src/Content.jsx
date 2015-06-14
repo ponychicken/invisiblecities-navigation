@@ -2,7 +2,7 @@ var React = require('react');
 var Menu = require('./Menu.jsx');
 var Router = require('react-router');
 var RouteHandler = Router.RouteHandler;
-var strings = require('./strings')
+var strings = require('../strings/strings')
 
 // TODO put in json, use in MENU
 var menuItems = [

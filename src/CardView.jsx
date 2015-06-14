@@ -1,39 +1,50 @@
-var React = require('react');
-var prefixer = require('react-prefixr');
-var classnames = require('classnames');
+import React from 'react'
+import prefixer from 'react-prefixr'
+import classnames from 'classnames'
+import {Link} from 'react-router'
 
 var heights = {
-  medium:  ~~(window.innerHeight * 0.22),
+  medium: ~~(window.innerHeight * 0.22),
   large: ~~(window.innerHeight * 0.6)
 }
 
-var CardItem = React.createClass({
-  getInitialState: function() {
-    return {
+class CardItem extends React.Component {
+  constructor() {
+    super();
+    this.state = {
       focus: false
-    };
-  },
-  render: function() {
+    }
+  }
+  
+  render() {
     var classes = classnames({
       'cardItem': true,
       'focus': this.state.focus,
       'beforeFocus': this.state.before,
       'afterFocus': this.state.after,
-    });
+    })
+    
     var divStyle = {
       zIndex: this.state.zIndex
-    };
+    }
+  
     return (
       <div className={classes} style={divStyle}>
         <img src={this.props.image} onClick={this.goToProject}/>
         <div className='block'>
-          <div className='author' onClick={this.goToProject}>{this.props.author}</div>
+          <h2 className='title' onClick={this.goToProject}>{this.props.city}</h2>
+          <div className='author'>{this.props.author}</div>
           <div className='cardText'>{this.props.text}</div>
+          <div className='buttons'>
+            <a className='button' href={`thepony://o/${this.props.path}?landscape=${this.props.landscape}&specialRotate=${this.props.specialRotate}`}>Projekt öffnen</a>
+            <Link to={this.props.city.toLowerCase()} className='button'>Kapitel lesen</Link>
+          </div>
         </div>
       </div>
     )
-  },
-  goToProject: function(e) {
+  }
+  
+  goToProject(e) {
     // Only allow click on image when expanded
     if (e.target.tagName == 'IMG' && !this.state.focus) {
       console.log('skipping');
@@ -42,9 +53,9 @@ var CardItem = React.createClass({
     e.preventDefault();
     e.stopPropagation();
     var p = this.props;
-    window.location.href = `thepony://o/${p.path}?landscape=${p.landscape}&specialRotate=${p.specialRotate}`;
-  },
-});
+    window.location.href = `thepony://o/${this.props.path}?landscape=${this.props.landscape}&specialRotate=${this.props.specialRotate}`;
+  }
+}
 
 
 var CardView = React.createClass({

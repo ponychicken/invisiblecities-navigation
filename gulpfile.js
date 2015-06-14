@@ -3,7 +3,7 @@ var livereload = require('gulp-livereload');
 var less = require('gulp-less');
 var babelify = require('babelify');
 var browserify = require('browserify');
-var watchify = require('gulp-watchify');
+var watchify = require('watchify');
 var autoprefixer = require('gulp-autoprefixer');
 var reactify = require('reactify');
 var server = require('gulp-server-livereload');
@@ -12,7 +12,9 @@ var connect = require('gulp-connect');
 var plumber = require('gulp-plumber');
 var deploy = require('gulp-gh-pages');
 var uglify = require('gulp-uglify');
-
+var markdownify = require('markdownify');
+var source       = require('vinyl-source-stream');
+var buffer       = require('vinyl-buffer');
 var target = 'index.js'
 
 // GH pages
@@ -29,21 +31,38 @@ gulp.task('enable-watch-mode', function () {
   watching = true;
 });
 
-// Browserify and copy js files
-gulp.task('browserify', watchify(function (watchify) {
-  return gulp.src('./src/index.jsx')
-    .pipe(plumber())
-    .pipe(watchify({
-      debug: false,
-      watch: watching,
-      setup: function (bundle) {
-        bundle.transform(babelify);
-      }
-    }))
-    .pipe(rename(target))
-    .pipe(gulp.dest('./dist/'))
-    .pipe(connect.reload());
-}));
+
+function browserifyAndMaybeWatchify(watch) {
+  args = watchify.args;
+  args.extensions = ['.md', '.json'];
+
+  var bundler = browserify("./src/index.jsx", args);
+
+  bundler.transform(markdownify);
+  bundler.transform(babelify);
+
+  var bundle = function() {
+    console.log('Bundling index.js');
+    return bundler
+      .bundle()
+      .on('error', console.log)
+      .pipe(source('index.js'))
+      .pipe(buffer())
+      .pipe(gulp.dest('./dist/'))
+      .pipe(connect.reload())
+  };
+
+  if (watch) {
+    bundler = watchify(bundler);
+    bundler.on("update", bundle);
+  }
+
+  bundle()
+}
+
+gulp.task("watchify", function() {
+    browserifyAndMaybeWatchify(true)
+})
 
 gulp.task('setproduction', function() {
   process.env.NODE_ENV = 'production';
@@ -56,7 +75,6 @@ gulp.task('compress', ['browserify'], function() {
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('watchify', ['enable-watch-mode', 'browserify']);
 
 gulp.task('less', function () {
   gulp.src('./css/*.less')
@@ -86,7 +104,6 @@ gulp.task('webserver', function() {
     }));
 });
 
-
 gulp.task('copy', function() {
   gulp.src(['index.html', 'index.prod.html', 'assets/*', 'content/*'])
   .pipe(gulp.dest('./dist'))
@@ -99,25 +116,11 @@ gulp.task('watch', function () {
   gulp.watch('index.prod.html', ['copy']);
 });
 
-// gulp.task('develop', function () {
-//   livereload.listen();
-//   nodemon({
-//     script: 'bin/www',
-//     ext: 'js jade json',
-//     ignore: ['public/*', 'src/client/*']
-//   }).on('restart', function () {
-//     setTimeout(function () {
-//       //livereload.changed();
-//     }, 1500);
-//   });
-// });
-
 gulp.task('prod', ['setproduction', 'default']);
 
 gulp.task('default', [
   'less',
   'copy',
-  // 'develop',
   'watchify',
   'connect',
   'watch'
