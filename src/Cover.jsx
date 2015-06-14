@@ -27,11 +27,10 @@ class ImagePreloader extends React.Component {
 
 
 class Cover extends React.Component {
-
   render() {
     return (
        <Swipeable className="fullscreenPage" onSwiped={this.go} ref="cover">
-          <div className='cover' onClick={this.go}>
+          <div className='cover' onClick={this.go.bind(this)}>
             <Link to='projects'><h1>{strings.App.title}</h1></Link>
             <h4>{strings.App.subtitle}</h4>
             <ImagePreloader/>
