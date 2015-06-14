@@ -1,7 +1,7 @@
-var React = require('react');
-var Text = require('./Text.jsx');
-var CardView = require('./CardView.jsx');
-var projects = require('../strings/projects');
+import React from 'react'
+import Text from './Text'
+import CardView from './CardView'
+import projects from '../utils/projects'
 
 export default class Projects extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ export default class Projects extends React.Component {
   }
 
   render() {
-    return <CardView projects={projects} ref="cardView"/>
+    return <CardView projects={projects} ref='cardView'/>
   }
   
   changeTo(i) {

@@ -2,6 +2,7 @@ import React from 'react'
 import prefixer from 'react-prefixr'
 import classnames from 'classnames'
 import {Link} from 'react-router'
+import {getProjectHref, ProjectLink} from './ProjectLink'
 
 var heights = {
   medium: ~~(window.innerHeight * 0.22),
@@ -36,7 +37,7 @@ class CardItem extends React.Component {
           <div className='author'>{this.props.author}</div>
           <div className='cardText'>{this.props.text}</div>
           <div className='buttons'>
-            <a className='button' href={`thepony://o/${this.props.path}?landscape=${this.props.landscape}&specialRotate=${this.props.specialRotate}`}>Projekt öffnen</a>
+            <ProjectLink className='button' path={this.props.path} landscape={this.props.landscape} specialRotate={this.props.specialRotate}>Projekt öffnen</ProjectLink>
             <Link to={this.props.city.toLowerCase()} className='button'>Kapitel lesen</Link>
           </div>
         </div>
@@ -47,13 +48,13 @@ class CardItem extends React.Component {
   goToProject(e) {
     // Only allow click on image when expanded
     if (e.target.tagName == 'IMG' && !this.state.focus) {
-      console.log('skipping');
-      return;
+      console.log('skipping')
+      return
     }
-    e.preventDefault();
-    e.stopPropagation();
-    var p = this.props;
-    window.location.href = `thepony://o/${this.props.path}?landscape=${this.props.landscape}&specialRotate=${this.props.specialRotate}`;
+    
+    e.preventDefault()
+    e.stopPropagation()
+    window.location.href = getProjectHref(this.props)
   }
 }
 
@@ -65,8 +66,9 @@ export default React.createClass({
       transitioning: false,
       focusItem: 0,
       fakeScroll: 0
-    };
+    }
   },
+  
   render: function() {
     var classes = classnames({
       'cardView': true,
