@@ -2,6 +2,9 @@
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
+.absolute {
+  position: absolute;
+}
 @font-face {
   font-family: 'Diktator';
   src: url('weissenseediktatorsemibold-webfont.woff2') format('woff2'), url('weissenseediktatorsemibold-webfont.woff') format('woff');
@@ -41,9 +44,14 @@ h4 {
 }
 h1 {
   font-size: 2em;
-  text-indent: -0.05em;
 }
 h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
   font-size: 0.8em;
 }
 .whiteOnAubergine {
@@ -79,7 +87,7 @@ h2 {
   transition: transform 0.5s;
 }
 .cover h1,
-.cover h2 {
+.cover h4 {
   position: absolute;
   width: 340px;
   left: 36px;
@@ -87,7 +95,7 @@ h2 {
 .cover h1 {
   top: 648px;
 }
-.cover h2 {
+.cover h4 {
   top: 682px;
 }
 .menu {
@@ -194,14 +202,37 @@ h2 {
   font-size: 1em;
 }
 .text {
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
   position: absolute;
-  left: 240px;
-  width: 136px;
+  left: 444px;
+  width: 476px;
   top: 104px;
   margin: 0em;
-  height: 900px;
+}
+.text h2 {
+  font-size: 1.2em;
+}
+.text p {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 516.8px;
+  padding-right: 68px;
+}
+.chapterView .links {
+  position: absolute;
+  left: 274px;
+  top: 104px;
+  width: 170px;
+  display: inline-block;
+  padding-top: 0.25em;
+}
+.chapterView .links .button + .button {
+  margin-left: 0;
+  margin-top: 0.25em;
+}
+.chapterView .links .button {
+  color: #7f545c;
+  background: none;
+  padding: 0;
 }
 .cardView {
   overflow: scroll;
@@ -227,6 +258,8 @@ h2 {
 }
 .cardView .cardItem .cardText {
   margin-top: 1em;
+  -webkit-flex: 1;
+          flex: 1;
 }
 .cardView .cardItem .block {
   top: 0;
@@ -236,6 +269,10 @@ h2 {
   width: 306px;
   position: absolute;
   background: #e3d5d8;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+          flex-direction: column;
 }
 .cardView .cardItem .author {
   display: inline;
@@ -785,4 +822,13 @@ h2 {
   top: 138px;
   left: 478px;
   width: 408px;
+}
+.button {
+  display: inline-block;
+  background: #7f545c;
+  padding: 0.5em;
+  color: white;
+}
+.button + .button {
+  margin-left: 0.5em;
 }
