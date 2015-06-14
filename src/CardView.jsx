@@ -58,7 +58,7 @@ class CardItem extends React.Component {
 }
 
 
-var CardView = React.createClass({
+export default React.createClass({
   getInitialState: function() {
     return {
       focus: false,
@@ -135,7 +135,7 @@ var CardView = React.createClass({
     }
   },
   
-  removeAllFocus: function(refocus = false, newItem) {
+  removeAllFocus: function(refocus = false, newItem = false) {
     console.log('refocus:', refocus, 'newly focussed:', newItem);
     var found = false;
     var last = this.state.focusItem;
@@ -154,7 +154,7 @@ var CardView = React.createClass({
       if (focusThis) {
         found = true;
         at = parseInt(i);
-      };
+      }
     }
     
     // Scroll to correct position:
@@ -188,18 +188,22 @@ var CardView = React.createClass({
       transitioning: false
     });
   },
+  
   setTransitioning: function (bool) {
     this.setState({
       transitioning: bool
     })
   },
+  
   onTransitionEnd: function () {
     console.log('reset scroll');
     this.resetScroll();
   },
+  
   componentDidUpdate: function() {
     this.getDOMNode().addEventListener('transitionend', this.onTransitionEnd, false);
   },
+  
   componentDidMount: function () {
     this.getDOMNode().addEventListener('scroll',  (e) => {
       console.log(e);
@@ -207,5 +211,3 @@ var CardView = React.createClass({
     }, false);
   }
 })
-
-module.exports = CardView;
