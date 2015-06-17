@@ -1,2 +1,3 @@
 #Vorwort
 
+Das Buch »Die unsichtbaren Städte« von Italo Calvino portraitiert 55 Städte, von denen der Weltreisende Marco Polo dem chinesische Kaiser Kublai Khan ­berichtet. Diese Porträts sind wunderbare poetische Sinnbilder für die Paradoxien des menschlichen Daseins. Anhand von ausgewählten Städten des Buches ­wurden interaktive Illustrationen für den Tablet-Computer erarbeitet.  Gezeichnet wurde sowohl auf dem Papier als auch am Grafiktablett. Die spezifischen Möglichkeiten für den Bereich der Illustration und Zeichnung, die der T­­ablet-Computer bietet, wurden genutzt, um die Geschichten des Buches spielerisch und spannend zu inszenieren.
