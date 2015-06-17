@@ -49,4 +49,10 @@
   "text": "Die Stadt Zaira besteht aus nichts als den Fragmenten ihrer Geschichte und den Erinnerungen an sie, sowie den Abständen der Dinge ihres Raumes zueinander. Mit einer Welle, die aus den Erinnerungen zurückfließt, saugt die Stadt sich voll wie ein Schwamm und breitet sich aus.",
   "landscape": false,
   "specialRotate": true,
+}, {
+  "author": "Marion Kieber",
+  "city": "Fedora",
+  "text": "Diese Metropole aus grauem Stein baut und bebaut sich ständig neu. Fedora ist ein wahres Ganzes. Doch erst ihre aus vergangenen Wünschen geformten Abbilder, die irgendwo in der Stadt verborgen sind, machen sie vollkommen. Doch was ist von diesen Träumen geblieben? Das ist Fedoras Geheimnis.",
+  "landscape": true,
+  "specialRotate": false,
 }]

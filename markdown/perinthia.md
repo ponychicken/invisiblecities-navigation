@@ -1,1 +1,8 @@
-#MISSING
+#Perinthia
+
+##Die Städte und der Himmel
+
+Aufgerufen, die Normen für die Gründung von Perinthia zu setzen, bestimmten die Astronomen den Ort und den Tag gemäß dem Stand der Gestirne, zogen die überkreuzten Linien des Decumanus und des Cardo, die erste ausgerichtet am Lauf der Sonne, die zweite an der Achse, um die sich die Himmel drehen, teilten die Karte gemäß den zwölf Häusern des Tierkreises ein, auf daß jeder Tempel und jedes Viertel den richtigen Einfluß der günstigen Konstellationen empfange, und bezeichneten die Stellen der Mauer, wo Tore sich öffnen sollten, und zwar so, daß jedes Tor in den nächsten tausend Jahren eine Mondfinsternis umrahmen würde. Perinthiaso versicherten sie – werde die Harmonie des Firmaments widerspiegeln; die Vernunft der Natur und die Gnade der Götter würden den Schicksalen der Bewohner eine Form geben.
+Perinthia wurde exakt nach den Berechnungen der Astronomen erbaut. Allerlei Leute kamen, es zu bevölkern; die erste Generation der in Perinthia Geborenen wuchs in seinen Mauern heran und kam ihrerseits in das Alter, zu heiraten und Kinder zu haben.
+Heute begegnet man auf den Straßen und Plätzen von Perinthia Krüppeln, Zwergen, Buckligen, krankhaft Fettleibigen, bärtigen Frauen. Aber das Schlimmste sieht man nicht; gutturale Schreie dringen aus Kellern und Dachböden, wo die Familien ihre Kinder mit drei Köpfen oder sechs Beinen verstecken.
+Die Astronomen von Perinthia sehen sich vor eine schwierigen Wahl gestellt: entweder anzuerkennen, daß ihre Berechnungen allesamt falsch waren und ihre Zahlen den Himmel nicht zu beschreiben vermögen, oder zu offenbaren, daß die Ordnung der Götter genau diejenige ist, die sich in der Stadt der Monster widerspiegelt.

@@ -1,1 +1,6 @@
-#MISSING
+#Zirma
+
+##Die Städte und die Zeichen
+
+Aus Zirma kehren die Reisenden mit sehr deutlichen Erinnerungen zurück: ein blinder Schwarzer, der in die Menge ruft, ein Verrückter, der sich über den Dachsims eines Wolkenkratzers beugt, ein Mädchen, das mit einem Puma an der Leine vorübergeht. Tatsächlich sind viele der Blinden, die mit ihrem Stock auf das Pflaster von Firma klopfen, Schwarze, in jedem Wolkenkratzer gibt es jemanden, der verrückt wird, alle Verrückten verbringen Stunden auf Dachgesimsen, und es gibt keinen Puma, der nicht für die Launen eines Mädchens aufgezogen worden wäre. Die Stadt ist redundant: Sie wiederholt sich, damit etwas im Gedächtnis haftenbleibt.
+Auch ich kehre aus Zirma zurück: Meine Erinnerung umfaßt Luftschiffe, die auf Fensterhöhe in alle Richtungen fliegen, Ladenstraßen, in denen Seeleuten Tätowierungen in die Haut geritzt werden, Untergrundbahnen voll schwergewichtiger Frauen, die unter der schwülen Hitze leiden. Meine Reisegefährten schwören jedoch, sie hätten nur ein Luftschiff zwischen den Turmspitzen der Stadt schweben, nur einen Tätowierer Nadeln, Tinten und perforierte Zeichnungen auf seiner Bank ausbreiten, nur eine Tonne von Frau sich auf der Plattform eines Wagens Luft zufächeln gesehen. Die Erinnerung ist redundant: Sie wiederholt die Zeichen, damit die Stadt zu existieren beginnt.
