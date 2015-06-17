@@ -1,40 +1,52 @@
 [{
   "author": "Dom Okah",
   "city": "Zirma",
-  "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
+  "text": "XXXXXXX Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
   "landscape": true,
 }, {
   "author": "Lorenz Fidel Huchthausen",
   "city": "Valdrada",
-  "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
+  "text": "XXXXXXX Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
   "landscape": false,
   "specialRotate": false
 }, {
   "author": "Wiebke Helmchen",
   "city": "Chloe",
-  "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
+  "text": "In Chloe kennen die Menschen einander nicht. Wenn sie sich auf der Straße begegnen, stellen sie sich tausend Dinge voneinander vor: Begegnungen, die es zwischen ihnen geben könnte, Gespräche, Überraschungen, Liebkosungen, Bisse. Doch  ihre Blicke weichen sich aus. Würden sie sich treffen, käme das Karussell der Phantasie zum Stehen.",
   "landscape": true,
 }, {
   "author": "Ilya Barret",
   "city": "Theodora",
-  "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
+  "text": "Seltsame Wesen tauchen in Theodora auf. Klein und unscheinbar  scheinen sie den Bewohnern zunächst helfen zu wollen. Doch mit der Zeit verändert sich ihr Verhalten, bis sie schließlich ihr wahres Gesicht zeigen.",
   "landscape": true,
 }, {
   "author": "Eric Reh",
   "city": "Perinthia",
-  "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
+  "text": "XXXXXXX Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
   "landscape": false,
   "specialRotate": true,
 }, {
   "author": "Gabriela Kapfert",
   "city": "Procopia",
-  "text": "Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
+  "text": "XXXXXXX Vergeblich, großherziger Kublai, werde ich versuchen, dir die Stadt Zaira mit ihren hohen Bastionen zu beschreiben. Ich könnte dir sagen, wie viele Stufen die treppenförmigen Straßen haben, welche Wölbung die Bögen der Arkaden, mit was für",
   "landscape": true,
   "specialRotate": false,
 }, {
   "author": "Leo Koppelkamm",
   "city": "Irene",
   "text": "Wenn man am Rande des Hochplateaus zu der Stunde ins Tal hinunterschaut, in welcher die Lichter angehen und sich in der klaren Luft die Wohnhäuser abzeichnen, so blickt man auf Irene. Sie ist der Name für eine Stadt aus der Ferne, und nähert man sich ihr, so wird sie eine andere.",
+  "landscape": false,
+  "specialRotate": true,
+}, {
+  "author": "Lynn Lehmann",
+  "city": "Sophronia",
+  "text": "Sophronia eine Stadt aus zwei Hälften. Die eine Seite ist grau und trist, die andere bunt und voller Leben. Doch wenn die graue Stadt abgebaut wird, verblasst auch die bunte Seite der Stadt.",
+  "landscape": false,
+  "specialRotate": true,
+}, {
+  "author": "Florian Frenzel",
+  "city": "Zaira",
+  "text": "Die Stadt Zaira besteht aus nichts als den Fragmenten ihrer Geschichte und den Erinnerungen an sie, sowie den Abständen der Dinge ihres Raumes zueinander. Mit einer Welle, die aus den Erinnerungen zurückfließt, saugt die Stadt sich voll wie ein Schwamm und breitet sich aus.",
   "landscape": false,
   "specialRotate": true,
 }]
