@@ -1,6 +1,6 @@
-# Sophronia
+#Sophronia
 
-## Die fragilen Städte
+##Die fragilen Städte
 
 Die Stadt Sophronia besteht aus zwei Halbstädten. In der einen gibt es die große Achterbahn mit den steilen Bögen, das Karussell mit dem Kranz der fliegenden Ketten, das Riesenrad mit den drehbaren Gondeln, die Todesbahn mit den Motorradfahren kopfunten, die Zirkuskuppel mit der Traube von Trapezen in der Mitte.
 Die andere Halbstadt ist aus Backstein und Marmor und Beton, mit der Bank, den Fabriken, den Mietskasernen, dem Schlachthof, der Schule und dem ganzen Rest. 
