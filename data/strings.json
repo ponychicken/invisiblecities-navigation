@@ -6,7 +6,6 @@
   "Menu": [
       {"name":"Vorwort", "destination":"preface"},
       {"name":"Interaktive Projekte", "destination":"projects"},
-      {"name":"Animation", "destination":"/"},
-      {"name":"Nachwort", "destination":"/"}
+      {"name":"Credits", "destination":"credits"}
   ]
 }

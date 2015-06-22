@@ -42,7 +42,8 @@ var routes = (
     <DefaultRoute name="cover" handler={Cover}/>
     <Route name="content" handler={Content}>
       <Route name="projects" handler={Projects}/>
-      <Route name="preface" handler={Preface}/>
+      <Route name="preface" handler={Text}/>
+      <Route name="credits" handler={Text}/>
       <Route name="irene" handler={Text}/>
       <Route name="chloe" handler={Text}/>
       <Route name="procopia" handler={Text}/>
@@ -51,6 +52,8 @@ var routes = (
       <Route name="valdrada" handler={Text}/>
       <Route name="zirma" handler={Text}/>
       <Route name="theodora" handler={Text}/>
+      <Route name="zaira" handler={Text}/>
+      <Route name="fedora" handler={Text}/>
     </Route>
   </Route>
 )
