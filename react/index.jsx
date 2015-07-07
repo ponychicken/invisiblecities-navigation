@@ -9,6 +9,8 @@ var Preface = require('./Preface.jsx')
 var TransitionGroup = require('react/lib/ReactCSSTransitionGroup')
 var Text = require('./Text.jsx')
 
+require("babelify/polyfill");
+
 var DefaultRoute = Router.DefaultRoute;
 var Link = Router.Link;
 var Route = Router.Route;
