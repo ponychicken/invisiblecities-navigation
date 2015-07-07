@@ -28983,34 +28983,13 @@ var _dataProjects = require('../data/projects');
 
 var _dataProjects2 = _interopRequireDefault(_dataProjects);
 
-var _iteratorNormalCompletion = true;
-var _didIteratorError = false;
-var _iteratorError = undefined;
-
-try {
-
-  for (var _iterator = _dataProjects2['default'][Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-    var project = _step.value;
-
-    project.id = project.city.toLowerCase();
-    project.image = './' + project.id + '.jpg';
-    project.path = project.author.split(' ')[0].toLowerCase();
-    project.specialRotate = project.specialRotate || false;
-    project.landscape = project.landscape || false;
-  }
-} catch (err) {
-  _didIteratorError = true;
-  _iteratorError = err;
-} finally {
-  try {
-    if (!_iteratorNormalCompletion && _iterator['return']) {
-      _iterator['return']();
-    }
-  } finally {
-    if (_didIteratorError) {
-      throw _iteratorError;
-    }
-  }
+for (var i = 0; i < _dataProjects2['default'].length; i++) {
+  var project = _dataProjects2['default'][i];
+  project.id = project.city.toLowerCase();
+  project.image = './' + project.id + '.jpg';
+  project.path = project.author.split(' ')[0].toLowerCase();
+  project.specialRotate = project.specialRotate || false;
+  project.landscape = project.landscape || false;
 }
 
 exports['default'] = _dataProjects2['default'];
