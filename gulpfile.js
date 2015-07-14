@@ -110,7 +110,7 @@ gulp.task('webserver', function() {
 })
 
 gulp.task('copy', function() {
-  gulp.src(['index.html', 'index.prod.html', 'assets/*', 'content/*'])
+  gulp.src(['index.html', 'index.prod.html', 'assets/**'])
   .pipe(gulp.dest('./dist'))
   .pipe(connect.reload())
 })
