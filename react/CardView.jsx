@@ -37,7 +37,7 @@ class CardItem extends React.Component {
           <div className='author'>{this.props.author}</div>
           <div className='cardText'>{this.props.text}</div>
           <div className='buttons'>
-            <ProjectLink className='button' path={this.props.path} onClick={this.stopPropagation.bind(this)} landscape={this.props.landscape} specialRotate={this.props.specialRotate}>Projekt öffnen</ProjectLink>
+            <ProjectLink className='button' path={this.props.path} onClick={this.stopPropagation.bind(this)} landscape={this.props.landscape} needsServer={this.props.needsServer} specialRotate={this.props.specialRotate}>Projekt öffnen</ProjectLink>
             <Link to={this.props.city.toLowerCase()} onClick={this.stopPropagation.bind(this)} className='button'>Kapitel lesen</Link>
           </div>
         </div>
