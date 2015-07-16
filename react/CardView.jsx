@@ -37,8 +37,8 @@ class CardItem extends React.Component {
           <div className='author'>{this.props.author}</div>
           <div className='cardText'>{this.props.text}</div>
           <div className='buttons'>
-            <ProjectLink className='button' path={this.props.path} landscape={this.props.landscape} specialRotate={this.props.specialRotate}>Projekt öffnen</ProjectLink>
-            <Link to={this.props.city.toLowerCase()} className='button'>Kapitel lesen</Link>
+            <ProjectLink className='button' path={this.props.path} onClick={this.stopPropagation.bind(this)} landscape={this.props.landscape} specialRotate={this.props.specialRotate}>Projekt öffnen</ProjectLink>
+            <Link to={this.props.city.toLowerCase()} onClick={this.stopPropagation.bind(this)} className='button'>Kapitel lesen</Link>
           </div>
         </div>
       </div>
@@ -55,6 +55,10 @@ class CardItem extends React.Component {
     e.preventDefault()
     e.stopPropagation()
     window.location.href = getProjectHref(this.props)
+  }
+  
+  stopPropagation(e) {
+    e.stopPropagation()
   }
 }
 
