@@ -38,6 +38,7 @@ module.exports=[{
   "text": "Wenn man am Rande des Hochplateaus zu der Stunde ins Tal hinunterschaut, in welcher die Lichter angehen und sich in der klaren Luft die Wohnhäuser abzeichnen, so blickt man auf Irene. Sie ist der Name für eine Stadt aus der Ferne, und nähert man sich ihr, so wird sie eine andere.",
   "landscape": false,
   "specialRotate": true,
+  "needsServer": true
 }, {
   "author": "Lynn Lehmann",
   "city": "Sophronia",
@@ -24334,7 +24335,7 @@ var CardItem = (function (_React$Component) {
             { className: 'buttons' },
             _react2['default'].createElement(
               _ProjectLink.ProjectLink,
-              { className: 'button', path: this.props.path, onClick: this.stopPropagation.bind(this), landscape: this.props.landscape, specialRotate: this.props.specialRotate },
+              { className: 'button', path: this.props.path, onClick: this.stopPropagation.bind(this), landscape: this.props.landscape, needsServer: this.props.needsServer, specialRotate: this.props.specialRotate },
               'Projekt öffnen'
             ),
             _react2['default'].createElement(
@@ -24945,7 +24946,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== 'function' 
 var React = require('react');
 
 function getProjectHref(props) {
-  return 'thepony://o/' + props.path + '?landscape=' + props.landscape + '&specialRotate=' + props.specialRotate;
+  return 'thepony://o/' + props.path + '?landscape=' + props.landscape + '&specialRotate=' + props.specialRotate + '&needsServer=' + (props.needsServer || false);
 }
 
 var ProjectLink = (function (_React$Component) {
