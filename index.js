@@ -60,7 +60,7 @@ module.exports={
   },
   "Menu": [
       {"name":"Vorwort", "destination":"preface"},
-      {"name":"Interaktive Projekte", "destination":"projects"},
+      {"name":"Interaktive Illustrationen", "destination":"projects"},
       {"name":"Credits", "destination":"credits"}
   ]
 }
@@ -24458,12 +24458,12 @@ var CardItem = (function (_React$Component) {
             { className: 'buttons' },
             _react2['default'].createElement(
               _ProjectLink.ProjectLink,
-              { className: 'button', path: this.props.path, landscape: this.props.landscape, specialRotate: this.props.specialRotate },
+              { className: 'button', path: this.props.path, onClick: this.stopPropagation.bind(this), landscape: this.props.landscape, specialRotate: this.props.specialRotate },
               'Projekt öffnen'
             ),
             _react2['default'].createElement(
               _reactRouter.Link,
-              { to: this.props.city.toLowerCase(), className: 'button' },
+              { to: this.props.city.toLowerCase(), onClick: this.stopPropagation.bind(this), className: 'button' },
               'Kapitel lesen'
             )
           )
@@ -24473,6 +24473,7 @@ var CardItem = (function (_React$Component) {
   }, {
     key: 'goToProject',
     value: function goToProject(e) {
+      console.log('goto event');
       // Only allow click on image when expanded
       if (e.target.tagName == 'IMG' && !this.state.focus) {
         console.log('skipping');
@@ -24482,6 +24483,11 @@ var CardItem = (function (_React$Component) {
       e.preventDefault();
       e.stopPropagation();
       window.location.href = (0, _ProjectLink.getProjectHref)(this.props);
+    }
+  }, {
+    key: 'stopPropagation',
+    value: function stopPropagation(e) {
+      e.stopPropagation();
     }
   }]);
 
@@ -24526,6 +24532,7 @@ exports['default'] = _react2['default'].createClass({
       )
     );
   },
+
   getCorrectTarget: function getCorrectTarget(x, y) {
     var _this = this;
 
@@ -24560,6 +24567,7 @@ exports['default'] = _react2['default'].createClass({
   },
 
   focus: function focus(e) {
+    console.log('focus event');
     var target = this.getCorrectTarget(e.clientX, e.clientY);
 
     if (this.state.focus && target == this.state.focusItem) {
@@ -25084,9 +25092,16 @@ var ProjectLink = (function (_React$Component) {
       var href = getProjectHref(this.props);
       return React.createElement(
         'a',
-        _extends({}, this.props, { href: href }),
+        _extends({}, this.props, { onClick: this.onClick.bind(this), href: href }),
         this.props.children
       );
+    }
+  }, {
+    key: 'onClick',
+    value: function onClick(e) {
+      console.log('goto');
+      //e.preventDefault()
+      e.stopPropagation();
     }
   }]);
 
