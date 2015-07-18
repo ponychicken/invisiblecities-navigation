@@ -67,7 +67,6 @@ body {
   text-rendering: optimizeLegibility;
   overflow: hidden;
   height: 100vh;
-
 }
 
 a {
@@ -128,17 +127,17 @@ h4 {
   .whiteOnAubergine;
   .fullscreenPage;
 
-  
+
   h1, h4 {
     position: absolute;
     .cols(5);
     .left(0);
   }
-  
+
   h1 {
     .top(9);
   }
-  
+
   h4 {
     .top(9.5);
   }
@@ -162,7 +161,7 @@ h4 {
     ul li a, .appTitle {
       display: none;
     }
-  
+
     ul .active {
       display: block;
         font-size: 2em;
@@ -171,11 +170,11 @@ h4 {
         left: 353px;
         transform: rotate(-90deg);
         transform-origin: 10 10;
-        
+
         width: 15em;
     }
   }
-  
+
   &.expanded  {
     transform: translate3d(0, 0, 0);
     .cols(6);
@@ -183,23 +182,23 @@ h4 {
       display: none;
     }
   }
-  
+
   // ul, .currentTitle, .menuIcon, .appTitle {
   //   //transition: opacity 0.25s;
   // }
-  
+
   li {
     list-style: none;
-    
+
     margin: 0;
     padding: 0;
   }
   li a {
     font-size: 1.4em;
   }
-  
 
-  
+
+
   ul {
     //position: absolute;
     margin: @outside-padding;
@@ -207,7 +206,7 @@ h4 {
     padding: 0;
     width: 16em;
   }
-  
+
   .appTitle {
     position: absolute;
     left: @outside-padding;
@@ -222,7 +221,7 @@ h4 {
       font-size: 3em;
       line-height: 0.8;
     }
-    .icon, 
+    .icon,
     .icon:before,
     .icon:after {
       cursor: pointer;
@@ -239,12 +238,12 @@ h4 {
       top: -10px;
     }
     .icon:after {
-      bottom: -10px; 
+      bottom: -10px;
     }
     .icon, .text {
       position: relative;
     }
-      
+
     .text {
       top: 25px;
       font-size: 1em;
@@ -257,36 +256,36 @@ h4 {
   .left(6);
   .cols(7);
   .top(1);
-  
+
   margin: 0em;
-  
+
   h2 {
     font-size: 1.2em;
   }
-  
+
   p {
     .scrollable;
     .rows(7.6);
     padding-right: @innerPadding * 4;
   }
-  
+
 
 }
 
 .chapterView {
   .links {
     .absolute;
-    .left(3.5);
+    .left(3);
     .top(1);
     .cols(2.5);
     display: inline-block;
     padding-top: 0.25em;
-    
+
     .button + .button {
       margin-left: 0;
       margin-top: 0.25em;
     }
-    
+
     .button {
       color: @aubergine;
       background: none;
@@ -312,21 +311,21 @@ h4 {
     transition: transform 0.4s;
     box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.6);
     height: @card-height-small;
-    
+
     &.focus {
       height: 60vh;
     }
-    
+
     img {
       width: 1024 - 5.5 * @grid;
     }
-    
+
     .cardText {
       // FIXME
       margin-top: 1em;
       flex: 1;
     }
-    
+
     .block {
       top: 0;
       padding: @innerPadding;
@@ -338,12 +337,12 @@ h4 {
       display: flex;
       flex-direction: column;
     }
-    
+
     .author {
       display: inline;
     }
   }
-  
+
   .cardViewWrapper {
     position: relative;
     overflow: hidden;
@@ -366,36 +365,36 @@ h4 {
 
 /* Create a Parametric mixin and add a guard operation */
 .loop(@index) when(@index =< @to) {
- 
+
   /* As the mixin is called CSS is outputted */
   .cardItem:nth-child(@{index}) {
     transform: translate3d(0, (@index - 1) * @card-height-medium, 0);
   }
-  
+
   .cardItem.beforeFocus:nth-child(@{index}) {
     transform: translate3d(0, (@index - 1) * (@card-height-medium), 0);
   }
- 
+
   .cardItem.focus:nth-child(@{index}) {
     transform: translate3d(0, (@index - 1) * (@card-height-medium), 0);
   }
-  
+
   .cardItem.afterFocus:nth-child(@{index}) {
     transform: translate3d(0, (@index - 2) * (@card-height-medium) + @card-height-large, 0);
   }
-    
+
   .cardViewWrapper.childnum@{index} {
     height: (@index) * @card-height-medium;
   }
-  
+
   .focus .cardViewWrapper.childnum@{index} {
     height: (@index - 1) * @card-height-medium + @card-height-large;
   }
-  
+
   /* Interation call and operation */
   .loop(@index + 1);
 }
- 
+
 /* the mixin is called, css outputted and iterations called */
 .loop(@from);
 
