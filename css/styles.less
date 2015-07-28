@@ -1,5 +1,6 @@
-@main-color: #7f545c;
-@main-color-reduced: lighten(@main-color, 65);
+@main-color: #212c33;
+@main-color-reduced: lighten(@main-color, 85);
+@title-color: #feecd4;
 @white: #fff;
 
 @outside-padding: 36px;
@@ -38,6 +39,7 @@
   font-size: 0.8em;
   line-height: 1.45;
 }
+
 @font-face {
     font-family: 'Diktator';
     src: url('./weissenseediktatorsemibold-webfont.woff2') format('woff2'),
@@ -171,7 +173,7 @@ h4 {
 .menu {
   top: 0;
   color: white;
-  background: #2d2b2a;
+  background: @main-color;
   z-index: 10;
   position: absolute;
   height: 100vh;
@@ -462,7 +464,7 @@ h4 {
 .title-block {
   padding: 3em 2.7em;
   height: 300px;
-  background: #F8E7C9;
+  background: @title-color;
   
   h1, h2 {
     display: inline-block;
@@ -508,7 +510,7 @@ h4 {
   display: inline-block;
   padding: 0.2em 0.35em;
   color: @main-color;
-  border: 1px solid #7f545c;
+  border: 1px solid @main-color;
   border-radius: 3px;
   text-align: center;
 }
