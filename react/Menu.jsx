@@ -10,7 +10,15 @@ class MenuIcon extends React.Component {
     return (
       <div className='menuIcon'>
         <div className='icon'></div>
-        <span className='text'>Menu</span>
+      </div>
+    );
+  }
+}
+
+class CloseIcon extends React.Component {
+  render() {
+    return (
+      <div className='closeIcon'>
       </div>
     );
   }
@@ -51,6 +59,7 @@ export default class Menu extends React.Component {
       <Swipeable onSwiped={this.handleSwipe.bind(this)}>
         <div className={classes} onClick={this.toggle.bind(this)} >
           <MenuIcon />
+          <CloseIcon />
           <MenuList/>
         </div>
       </Swipeable>
