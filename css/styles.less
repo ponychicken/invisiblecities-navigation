@@ -170,7 +170,8 @@ h4 {
 
 .menu {
   top: 0;
-  .whiteOnmain-color;
+  color: white;
+  background: #2d2b2a;
   z-index: 10;
   position: absolute;
   height: 100vh;
@@ -283,8 +284,8 @@ h4 {
 
 .text {
   .absolute;
-  .left(6);
-  .cols(7);
+  .left(5);
+  .cols(8);
   .top(0);
 
   margin: 0em;
@@ -295,9 +296,12 @@ h4 {
 
   p {
     .scrollable;
-    .rows(7.65);
+    .rows(7.5);
     padding-right: @innerPadding * 4;
-    .serif;
+    //.serif;
+    line-height: 1.35;
+    font-weight: 300;
+    font-size: 1.05em;
   }
   
   p:first-of-type {
@@ -328,7 +332,7 @@ h4 {
     
     .button:nth-child(2) {
         .absolute;
-        .left(6);
+        .left(5);
         .top(9.5);
         .cols(2.5);
     }
