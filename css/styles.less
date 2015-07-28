@@ -32,6 +32,11 @@
   position: absolute;
 }
 
+.serif {
+  font-family: "Merriweather";
+  font-size: 0.84em;
+  line-height: 1.45;
+}
 @font-face {
     font-family: 'Diktator';
     src: url('./weissenseediktatorsemibold-webfont.woff2') format('woff2'),
@@ -69,7 +74,7 @@
 
 
 body {
-  font-family: 'DiktatorLight';
+  font-family: 'Diktator';
   font-size: @grid / 4;
   margin: 0;
   padding: 0;
@@ -332,6 +337,7 @@ h4 {
 
     .cardText {
       // FIXME
+      .serif;
       margin-top: 1em;
       flex: 1;
     }
