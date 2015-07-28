@@ -135,6 +135,7 @@ export default React.createClass({
       </div>
     );
   },
+  
   getCorrectTarget: function (x, y) {
     if (this.state.transitioning) {
       console.log("cant handle clicks while animating");
@@ -170,7 +171,7 @@ export default React.createClass({
   
   focus: function(e) {
     var target = this.getCorrectTarget(e.clientX, e.clientY);
-    
+    if (target == 0) return
     if (this.state.focus && target == this.state.focusItem) {
       this.removeAllFocus();
     } else {
