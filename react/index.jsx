@@ -44,6 +44,7 @@ var routes = (
       <Route name="projects" handler={Projects}/>
       <Route name="preface" handler={Text}/>
       <Route name="credits" handler={Text}/>
+      <Route name="impressum" handler={Text}/>
       <Route name="irene" handler={Text}/>
       <Route name="chloe" handler={Text}/>
       <Route name="procopia" handler={Text}/>

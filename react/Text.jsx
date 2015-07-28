@@ -15,6 +15,7 @@ let fedora = require(`../markdown/fedora`)
 let zaira = require(`../markdown/zaira`)
 let preface = require(`../markdown/preface`)
 let credits = require(`../markdown/credits`)
+let impressum = require(`../markdown/impressum`)
 
 
 
@@ -34,11 +35,15 @@ export default class Text extends React.Component {
     props = props.length ? props[0] : false
     
     let links = props ? (<div className='links'>
-            <ProjectLink className='button' path={props.path} landscape={props.landscape} specialRotate={props.specialRotate}>→ Projekt öffnen</ProjectLink>
-            <Link to='projects' className='button'>← Zurück zur Übersicht</Link>
+          <Link to='projects' className='button'>Alle Projekte</Link>
+          <ProjectLink className='button' path={props.path} landscape={props.landscape} specialRotate={props.specialRotate}>Projekt öffnen</ProjectLink>
+
           </div>) : ''
     
-    return (<div className='chapterView'>
+    let className = 'chapterView'
+    className += (props) ? '' : ' noButtons'
+    
+    return (<div className={className}>
       <div dangerouslySetInnerHTML={{__html: text}} className="text"/>
       {links}
     </div>)

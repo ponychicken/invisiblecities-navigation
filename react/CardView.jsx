@@ -62,6 +62,37 @@ class CardItem extends React.Component {
   }
 }
 
+class TitleCard extends CardItem {
+    constructor() {
+      super();
+      this.state = {
+        focus: false
+      }
+    }
+  
+    render() {
+      var classes = classnames({
+        'cardItem': true,
+        'focus': this.state.focus,
+        'beforeFocus': this.state.before,
+        'afterFocus': this.state.after,
+      })
+      
+      var divStyle = {
+        zIndex: this.state.zIndex
+      }
+    
+      return (
+        <div className={classes} style={divStyle}>
+          <div className='title-block'>
+            <h1>Die Unsichtbaren Städte</h1>
+            <h2>Interaktive Illustrationen <br/>nach Italo Calvino</h2>
+          </div>
+        </div>
+      )
+    }
+}
+
 
 export default React.createClass({
   getInitialState: function() {
@@ -80,11 +111,16 @@ export default React.createClass({
       'transitioning-in': (this.state.transitioning == 'in'),
       'transitioning-out': (this.state.transitioning == 'out')
     });
+    
+    var titleCard = <TitleCard ref={0}/>
+    
     var cardNodes = this.props.projects.map(function(project, i) {
       return (
-        <CardItem ref={i} key={project.author} parent={this} {...project} />
+        <CardItem ref={i+1} key={project.author} parent={this} {...project} />
       );
     }, this);
+    
+    console.log(cardNodes);
     
     var numClass = 'cardViewWrapper childnum' + cardNodes.length;
     var style = prefixer({'transform': `translate(0, ${-this.state.fakeScroll}px)`});
@@ -93,6 +129,7 @@ export default React.createClass({
     
     return (<div className={classes} onClick={this.focus}>
         <div className={numClass} style={style}>
+          <TitleCard />
           {cardNodes}
         </div>
       </div>
