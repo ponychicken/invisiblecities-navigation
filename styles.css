@@ -174,14 +174,17 @@ h4 {
   margin: 0;
   padding: 0;
 }
-.menu li a {
-  font-size: 1.4em;
-}
 .menu ul {
   margin: 36px;
   margin-top: 138px;
   padding: 0;
   width: 16em;
+  line-height: 1.4;
+  font-weight: 300;
+  font-size: 30;
+}
+.menu .active {
+  font-weight: 400;
 }
 .menu .appTitle {
   position: absolute;
@@ -240,12 +243,14 @@ h4 {
   -webkit-overflow-scrolling: touch;
   height: 520.2px;
   padding-right: 68px;
-  font-family: "Merriweather";
-  font-size: 0.8em;
-  line-height: 1.45;
+  line-height: 1.4;
+  font-weight: 300;
 }
 .text p:first-of-type {
   margin-top: 2.2em;
+}
+.noButtons .text p {
+  height: 618.8px;
 }
 .chapterView .links {
   display: inline-block;
