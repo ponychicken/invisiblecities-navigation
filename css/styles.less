@@ -1,4 +1,5 @@
-@aubergine: #7f545c;
+@main-color: #7f545c;
+@main-color-reduced: lighten(@main-color, 45);
 @white: #fff;
 
 @outside-padding: 36px;
@@ -116,8 +117,8 @@ h4 {
   font-size: 0.8em;
 }
 
-.whiteOnAubergine {
-  background: @aubergine;
+.whiteOnmain-color {
+  background: @main-color;
   color: @white;
 }
 
@@ -139,7 +140,7 @@ h4 {
 }
 
 .cover {
-  .whiteOnAubergine;
+  .whiteOnmain-color;
   .fullscreenPage;
 
 
@@ -160,7 +161,7 @@ h4 {
 
 .menu {
   top: 0;
-  .whiteOnAubergine;
+  .whiteOnmain-color;
   z-index: 10;
   position: absolute;
   height: 100vh;
@@ -302,7 +303,7 @@ h4 {
     }
 
     .button {
-      color: @aubergine;
+      color: @main-color;
       background: none;
       padding: 0;
     }
@@ -319,7 +320,7 @@ h4 {
   margin-left: @grid;
   top: 0;
   height: 100vh;
-  background: lighten(@aubergine, 45);
+  background: @main-color-reduced;
   .cardItem {
     position: absolute;
     width: 1024 - @grid;
@@ -349,7 +350,7 @@ h4 {
       height: @card-height-large;
       .cols(4.5);
       position: absolute;
-      background: lighten(@aubergine, 45);
+      background: @main-color-reduced;
       display: flex;
       flex-direction: column;
     }
@@ -440,7 +441,7 @@ h4 {
 
 .button {
   display: inline-block;
-  background: @aubergine;
+  background: @main-color;
   padding: 0.5em;
   color: white;
 }
