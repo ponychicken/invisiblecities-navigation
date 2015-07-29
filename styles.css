@@ -79,7 +79,7 @@ h4 {
   font-size: 0.8em;
 }
 .whiteOnmain-color {
-  background: #7f545c;
+  background: #212c33;
   color: #ffffff;
 }
 .fullscreenPage {
@@ -100,7 +100,7 @@ h4 {
           transform: translateY(-100vh);
 }
 .cover {
-  background: #7f545c;
+  background: #212c33;
   color: #ffffff;
   width: 100vw;
   height: 100vh;
@@ -124,8 +124,8 @@ h4 {
 }
 .menu {
   top: 0;
-  background: #7f545c;
-  color: #ffffff;
+  color: white;
+  background: #212c33;
   z-index: 10;
   position: absolute;
   height: 100vh;
@@ -149,16 +149,7 @@ h4 {
   display: none;
 }
 .menu.collapsed ul .active {
-  display: block;
-  font-size: 2em;
-  position: absolute;
-  bottom: 0px;
-  left: 353px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  -webkit-transform-origin: 10 10;
-          transform-origin: 10 10;
-  width: 15em;
+  display: none;
 }
 .menu.expanded {
   -webkit-transform: translate3d(0, 0, 0);
@@ -191,6 +182,14 @@ h4 {
   left: 36px;
   top: 36px;
   width: 10em;
+}
+.menu .closeIcon {
+  width: 26px;
+  height: 26px;
+  background: url('icon-close.svg') no-repeat;
+  position: relative;
+  top: 14px;
+  left: 20px;
 }
 .menu .menuIcon {
   margin: 17px;
@@ -230,8 +229,8 @@ h4 {
 }
 .text {
   position: absolute;
-  left: 444px;
-  width: 476px;
+  left: 376px;
+  width: 544px;
   top: 36px;
   margin: 0em;
 }
@@ -241,10 +240,11 @@ h4 {
 .text p {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
-  height: 520.2px;
+  height: 510px;
   padding-right: 68px;
-  line-height: 1.4;
+  line-height: 1.35;
   font-weight: 300;
+  font-size: 1.05em;
 }
 .text p:first-of-type {
   margin-top: 2.2em;
@@ -268,7 +268,7 @@ h4 {
 }
 .chapterView .links .button:nth-child(2) {
   position: absolute;
-  left: 444px;
+  left: 376px;
   top: 682px;
   width: 170px;
 }
@@ -851,7 +851,7 @@ h4 {
 .title-block {
   padding: 3em 2.7em;
   height: 300px;
-  background: #F8E7C9;
+  background: #feecd4;
 }
 .title-block h1,
 .title-block h2 {
@@ -895,8 +895,8 @@ h4 {
 .button {
   display: inline-block;
   padding: 0.2em 0.35em;
-  color: #7f545c;
-  border: 1px solid #7f545c;
+  color: #212c33;
+  border: 1px solid #212c33;
   border-radius: 3px;
   text-align: center;
 }
