@@ -24294,7 +24294,7 @@ var TitleCard = (function (_CardItem) {
           _react2['default'].createElement(
             'h1',
             null,
-            'Die Unsichtbaren Städte'
+            'Die unsichtbaren Städte'
           ),
           _react2['default'].createElement(
             'h2',
