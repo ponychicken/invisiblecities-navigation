@@ -85,7 +85,7 @@ class TitleCard extends CardItem {
       return (
         <div className={classes} style={divStyle}>
           <div className='title-block'>
-            <h1>Die Unsichtbaren Städte</h1>
+            <h1>Die unsichtbaren Städte</h1>
             <h2>Interaktive Illustrationen <br/>nach Italo Calvino</h2>
           </div>
         </div>
