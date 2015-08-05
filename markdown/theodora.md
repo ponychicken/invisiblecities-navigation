@@ -1,6 +1,6 @@
-#Theodora
+# Theodora
 
-##Die verborgenen Städte
+## Die verborgenen Städte
 
 Wiederkehrende Invasionen plagten die Stadt Theodora in den Jahrhunderten ihrer Geschichte; kaum war der eine Feind vernichtet, erhob sich ein anderer und bedrohte das Überleben der Einwohner. Als der Himmel von Geiern befreit war, galt es, dem Überhandnehmen der Schlangen entgegenzutreten; die Ausrottung der Spinnen ließ die Fliegen zu einer schwarzwimmelnden Plage werden; der Sieg über die Termiten gab die Stadt den Holzwürmern preis. Eine nach der anderen mußten die Arten und Gattungen, die mit der Stadt nicht vereinbar waren, unterliegen und starben aus. Durch gnadenloses Zerfleischen, Zerschlagen von Schuppen und Schildpanzern, Flügelausreißen und Federnrupfen gaben die Menschen der Stadt Theodora das exklusive Äußere einer rein menschlichen Stadt, das sie noch immer auszeichnet.
 Zuvor aber war es jahrelang ungewiß, ob der Endsieg nicht doch der letzten verbliebenen Spezies zufallen würde, die den Menschen die Stadt noch streitig zu machen drohte: den Ratten. Aus jeder Generation von Nagern, die zu vernichten den Menschen gelang, erzeugten die wenigen Überlebenden eine resistentere Nachkommenschaft, die den Fallen entkam und jedem Gift widerstand. Nach wenigen Wochen wimmelte es in Theodoras Unterwelt wieder von Rattenhorden. Schließlich, durch ein extremes Massaker, errang der mörderische und wendige Geist der Menschen den Sieg über die erdrückende Vitalität der Feinde.

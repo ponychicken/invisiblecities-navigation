@@ -1,6 +1,6 @@
-#Perinthia
+# Perinthia
 
-##Die Städte und der Himmel
+## Die Städte und der Himmel
 
 Aufgerufen, die Normen für die Gründung von Perinthia zu setzen, bestimmten die Astronomen den Ort und den Tag gemäß dem Stand der Gestirne, zogen die überkreuzten Linien des Decumanus und des Cardo, die erste ausgerichtet am Lauf der Sonne, die zweite an der Achse, um die sich die Himmel drehen, teilten die Karte gemäß den zwölf Häusern des Tierkreises ein, auf daß jeder Tempel und jedes Viertel den richtigen Einfluß der günstigen Konstellationen empfange, und bezeichneten die Stellen der Mauer, wo Tore sich öffnen sollten, und zwar so, daß jedes Tor in den nächsten tausend Jahren eine Mondfinsternis umrahmen würde. Perinthia – so versicherten sie – werde die Harmonie des Firmaments widerspiegeln; die Vernunft der Natur und die Gnade der Götter würden den Schicksalen der Bewohner eine Form geben.
 Perinthia wurde exakt nach den Berechnungen der Astronomen erbaut. Allerlei Leute kamen, es zu bevölkern; die erste Generation der in Perinthia Geborenen wuchs in seinen Mauern heran und kam ihrerseits in das Alter, zu heiraten und Kinder zu haben.

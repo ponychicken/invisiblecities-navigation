@@ -5,7 +5,7 @@
   "dependencies": {
     "classnames": "^2.1.0",
     "gulp": "^3.8.11",
-    "markdownify": "^0.1.0",
+    "markdownify": "git+https://github.com/ponychicken/markdownify.git",
     "react": "^0.13.1",
     "react-imageloader": "^1.2.0",
     "react-loadermixin": "^1.0.4",

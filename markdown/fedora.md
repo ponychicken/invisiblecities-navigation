@@ -1,6 +1,6 @@
-#Fedora
+# Fedora
 
-##Die Städte und der Wunsch
+## Die Städte und der Wunsch
 
 Im Zentrum von Fedora, einer Metropole aus grauem Stein, steht ein Palast aus Metall mit einer gläsernen Kugel in jedem Raum. Schaut man in die Kugeln hinein, erblickt man in jeder eine blaue Stadt, die das Modell eines anderen Fedora darstellt. Es sind die Formen, welche die Stadt hätte annehmen können, wenn sie aus dem einen oder anderen Grund nicht so geworden wäre, wie wir sie heute sehen. In jeder Epoche hatte sich jemand beim Anblick Fedoras, wie es gerade war, vorgestellt, wie man eine ideale Stadt daraus machen könnte, doch während er noch sein Miniaturmodell baute, war Fedora schon nicht mehr dieselbe Stadt wie zuvor, und was bis gestern noch eine mögliche Zukunft für sie hätte sein können, war inzwischen nur noch ein Spielzeug in einer gläsernen Kugel.
 Jetzt hat Fedora in dem Palast mit den Glaskugeln sein Museum: Jeder Einwohner besucht es, wählt sich die Stadt aus, die seinen Wünschen entspricht, betrachtet sie und stellt sich dabei vor, wie er sich im Teich der Medusen spiegelt, der das Wasser des Kanals hätte aufnehmen sollen (wenn der nicht trockengelegt worden wäre), wie er aus der Höhe des Baldachins auf die Allee hinabschaut, die für Elefanten reserviert ist (die jetzt aus der Stadt verbannt sind), wie er auf dem Geländer der Wendeltreppe des Minaretts hinabrutscht (das keinen Sockel fand, auf dem es sich erheben konnte).

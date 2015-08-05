@@ -17,7 +17,7 @@ Tim Peix
 ### Design und Programmierung 
 [Leo Koppelkamm](http://www.leo-koppelkamm.de)
 
-### Illustration
+### Illustrationen
 Ilya Lorenz Barret
 Wiebke Helmchen
 Lorenz Fidel Huchthausen
@@ -26,7 +26,3 @@ Leo Koppelkamm
 Lynn Lehmann
 Dominic Okah
 Eric Reh
-
-
-
-

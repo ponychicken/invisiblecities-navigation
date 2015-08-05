@@ -19,13 +19,18 @@ let impressum = require(`../markdown/impressum`)
 
 
 
-
 export default class Text extends React.Component {
-  
+
   render() {
     let routes = this.context.router.getCurrentRoutes()
     let textid = routes[routes.length - 1].name
     let text = require(`../markdown/${textid}`)
+    
+    // Strip out headlines
+    let headlines = text.match(/^<h1.*?\/h1>\s*(<h2.*?\/h2>)*/g)
+    console.log(headlines);
+    text = text.replace(/^<h1.*?\/h1>\s*(<h2.*?\/h2>)*/g, "")
+    
     let props = projects.filter(function (item) {
       return (item.city.toLowerCase() === textid)
     })
@@ -44,7 +49,10 @@ export default class Text extends React.Component {
     className += (props) ? '' : ' noButtons'
     
     return (<div className={className}>
-      <div dangerouslySetInnerHTML={{__html: text}} className="text"/>
+      <div className="text">
+        <div dangerouslySetInnerHTML={{__html: headlines}} className="headlines"/>
+        <div dangerouslySetInnerHTML={{__html: text}} className="paragraphs"/>
+      </div>
       {links}
     </div>)
   }

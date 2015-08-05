@@ -1,6 +1,6 @@
-#Chloe
+# Chloe
 
-##Die Städte und der Tausch
+## Die Städte und der Tausch
 
 In Chloe, einer großen Stadt, kennen die Menschen, die auf den Straßen gehen, einander nicht. Wenn sie sich sehen, stellen sie sich tausend Dinge voneinander vor: Begegnungen, die es zwischen ihnen geben könnte, Gespräche, Überraschungen, Liebkosungen, Bisse. Doch niemand grüßt irgendwen, die Blicke kreuzen sich eine Sekunde und weichen dann aus, suchen andere Blicke, bleiben nicht stehen.
 Ein Mädchen kommt vorbei, das einen Sonnenschirm auf der Schulter kreisen läßt und auch ein bißchen das Rund ihrer Hüften. Eine Frau in Schwarz kommt vorbei, die ihr volles Alter zeigt, mit unruhigen Augen hinter dem Schleier und zitternden Lippen. Ein tätowierter Riese kommt vorbei, ein junger Mann mit weißem Haar, eine Zwergin, zwei korallenbunt gekleidete Zwillingsmädchen. Etwas läuft zwischen ihnen ab, ein Austausch von Blicken wie Linien, die eine Gestalt mit der anderen verbinden und dabei Pfeile, Sterne, Dreiecke zeichnen, bis plötzlich alle Kombinationen auf einmal erschöpft sind und andere Personen in Erscheinung treten: ein Blinder mit einem Geparden an der Kette, eine Kurtisane mit einem Fächer aus Straußenfedern, ein Ephebe, eine übergewichtige Frau. So kommt es zwischen denen, die sich zufällig zusammenfinden, wenn sie sich vor dem Regen unter eine Arkade flüchten oder sich unter dem Sonnendach eines Basars drängen oder stehenbleiben, um der Kapelle auf dem Platz zuzuhören, zu Begegnungen, Verführungen, Umarmungen, Orgien, ohne daß dabei ein Wort gewechselt wird, ohne daß man sich auch nur mit einem Finger berührt, ja fast ohne daß man die Augen hebt.

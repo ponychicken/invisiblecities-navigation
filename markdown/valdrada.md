@@ -1,6 +1,6 @@
-#Valdrada
+# Valdrada
 
-##Die Städte und die Augen
+## Die Städte und die Augen
 
 Die Alten erbauten Valdrada an den Ufern eines Sees, mit Häusern ganz aus Veranden, eins über dem anderen, und Hochstraßen, deren balustradenförmige Brüstungen aufs Wasser blicken. So sieht der Reisende, wenn er ankommt, zwei Städte: eine aufrechte über dem See und eine umgekehrte gespiegelte. Nichts existiert oder geschieht in dem einen Valdrada, das sich nicht in dem anderen wiederholt, denn die Stadt wurde so gebaut, daß jeder ihrer Punkte durch sein Spiegelbild reflektiert wird, und das Valdrada unten im Wasser enthält nicht nur alle Auskehlungen und Vorsprünge der Fassaden, die sich über dem See erheben, sondern auch das Innere der Räume mit Decken und Böden, die Perspektive der Korridore, die Spiegel in den Kleiderschranktüren.
 Die Einwohner von Valdrada wissen, daß jede ihrer Handlungen immer gleichzeitig diese Handlung und ihr Spiegelbild sind, dem die besondere Würde der Bilder zukommt, und dieses Wissen verbietet ihnen, sich auch nur für einen einzigen Augenblick dem Zufall und dem Vergessen zu überlassen. Selbst wenn die Liebenden ihre nackten Leiber Haut an Haut herumwerfen, um die Position zu finden, die ihnen am meisten Lust verschafft, selbst wenn die Mörder ihr Messer in die schwarzen Halsadern stoßen und, je mehr dickes Blut herausquillt, desto mehr zustoßen, so daß die Klinge zwischen die Sehnen fährt, ist das Wichtige nicht so sehr ihre Paarung oder ihr Morden, sondern die Paarung oder das Morden ihrer klaren und kalten Bilder im Spiegel.

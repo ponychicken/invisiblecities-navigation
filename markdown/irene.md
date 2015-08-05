@@ -1,6 +1,6 @@
-#Irene
+# Irene
 
-##Die Städte und der Name
+## Die Städte und der Name
 
 Irene ist die Stadt, die man sieht, wenn man sich über den Rand des Hochplateaus beugt zu der Stunde, da die Lichter angehen und in der klaren Luft dort unten das Rosa der Häuser zu erkennen ist: wo die Fenster dichter gesät sind, wo es sich in kaum beleuchteten Gassen verdünnt, wo sich die Schatten von Gärten häufen, wo sich Türme mit Leuchtfeuern erheben; und wenn der Abend neblig ist, bläht sich eine unscharfe Helligkeit wie ein milchiger Schwamm zu Füßen der Bergfalten.
 Die Reisenden auf dem Hochplateau, die Hirten, die ihre Herden treiben, die Vogelfänger, die ihre Netze überwachen, die Eremiten, die wilde Zichorien sammeln, sie alle blicken hinunter und sprechen von Irene. Manchmal trägt der Wind Musik von Pauken und Trompeten und das Krachen von Böllerschüssen im Lichtermeer eines Festes herauf; manchmal das Rattern von Maschinengewehren, die Explosion eines Pulvermagazins in einen Himmel, der gelb von den Feuersbrünsten eines Bürgerkriegs ist. Die Hinunterblickenden ergehen sich in Mutmaßungen über das, was in der Stadt vorgehen mag, fragen sich, ob es schön oder häßlich wäre, an diesem Abend in Irene zu sein. Nicht daß sie vorhätten, dort hinunterzugehen – und in jedem Fall sind die Straßen, die ins Tal führen, schlecht –, aber Irene zieht magnetisch die Blicke und Gedanken derer an, die dort oben stehen.
