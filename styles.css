@@ -237,7 +237,7 @@ h4 {
 .text h2 {
   font-size: 1.2em;
 }
-.text p {
+.text .paragraphs {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   height: 510px;
@@ -249,7 +249,21 @@ h4 {
 .text p:first-of-type {
   margin-top: 2.2em;
 }
-.noButtons .text p {
+.text h1,
+.text h2,
+.text h3 {
+  margin: 1em 0 0.2em 0;
+}
+.text h1 + h2 {
+  margin: 0;
+}
+.text p {
+  margin: 0;
+}
+.text p + p {
+  margin-top: 0.5em;
+}
+.noButtons .text .paragraphs {
   height: 618.8px;
 }
 .chapterView .links {
