@@ -122,7 +122,7 @@ export default React.createClass({
     
     console.log(cardNodes);
     
-    var numClass = 'cardViewWrapper childnum' + cardNodes.length;
+    var numClass = 'cardViewWrapper childnum' + (cardNodes.length + 1);
     var style = prefixer({'transform': `translate(0, ${-this.state.fakeScroll}px)`});
     
     this.cardItems = cardNodes;

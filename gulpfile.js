@@ -23,7 +23,7 @@ gulp.task('gh-pages', ['less', 'copy', 'setproduction', 'browserify'], function 
     .pipe(deploy())
 });
 
-gulp.task('deploy', ['less', 'copy', 'setproduction', 'browserify', 'ghpages']);
+gulp.task('deploy', ['less', 'copy', 'setproduction', 'browserify', 'gh-pages']);
 
 // Hack to enable configurable watchify watching
 var watching = false
