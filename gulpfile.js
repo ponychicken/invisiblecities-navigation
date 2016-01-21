@@ -15,7 +15,6 @@ var uglify = require('gulp-uglify');
 var markdownify = require('markdownify');
 var source       = require('vinyl-source-stream');
 var buffer       = require('vinyl-buffer');
-var target = 'index.js'
 
 // GH pages
 gulp.task('gh-pages', ['less', 'copy', 'setproduction', 'browserify'], function () {
@@ -43,7 +42,7 @@ function browserifyAndMaybeWatchify(watch) {
   bundler.transform(babelify)
 
   var bundle = function() {
-    console.log('Bundling index.js');
+    console.log('Bundling index.js for ' + process.env.NODE_ENV);
     return bundler
       .bundle()
       .on('error', console.log)
@@ -71,7 +70,6 @@ gulp.task('browserify', function() {
 
 gulp.task('setproduction', function() {
   process.env.NODE_ENV = 'production'
-  target = 'index.prod.js'
 });
 
 gulp.task('compress', ['browserify'], function() {
