@@ -5,11 +5,6 @@
 .absolute {
   position: absolute;
 }
-.serif {
-  font-family: "Merriweather";
-  font-size: 0.8em;
-  line-height: 1.45;
-}
 @font-face {
   font-family: 'Diktator';
   src: url('weissenseediktatorsemibold-webfont.woff2') format('woff2'), url('weissenseediktatorsemibold-webfont.woff') format('woff');
@@ -20,18 +15,6 @@
   font-family: 'Diktator';
   src: url('weissenseediktatorlight-webfont.woff2') format('woff2'), url('weissenseediktatorlight-webfont.woff') format('woff');
   font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Merriweather';
-  src: url('merriweather-bold-webfont.woff2') format('woff2'), url('merriweather-bold-webfont.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Merriweather';
-  src: url('merriweather-regular-webfont.woff2') format('woff2'), url('merriweather-regular-webfont.woff') format('woff');
-  font-weight: normal;
   font-style: normal;
 }
 * {
